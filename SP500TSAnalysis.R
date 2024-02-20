@@ -1,6 +1,4 @@
 # Load necessary libraries
-install.packages("dplyr", "ggplot2", "ggfortify", "TSstudio", "forecast", "tseries")
-install.packages("tseries")
 library(dplyr)
 library(ggplot2)
 library(ggfortify)
