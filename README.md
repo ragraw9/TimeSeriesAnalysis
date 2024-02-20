@@ -6,13 +6,13 @@ This documentation outlines the analytical process and forecasting methodologies
 The objective was to dissect the time series data to understand its characteristics, fit various forecasting models, and identify the most accurate model based on empirical data. The final aim was to project future index values using the selected model.
 
 ## Data Overview
-The dataset comprised the S&P 500 daily closing prices over a decade. To normalize the dataset for time series analysis, we computed monthly averages due to the varying number of trading days in each month.
+The dataset comprised the S&P 500 daily closing prices over a decade. To normalize the dataset for time series analysis, monthly averages are computed due to the varying number of trading days in each month.
 
 ## Data Preprocessing
 Preprocessing involved transforming daily data points into a consistent monthly average, facilitating the creation of a uniform time series.
 
 ## Time Series Analysis
-We initiated the analysis by plotting the data to visualize trends and patterns. It was observed that the series exhibited a clear upward trend without obvious seasonality or cyclical behavior. Decomposition of the series using the classical method confirmed the absence of seasonality, indicating an additive model was most appropriate.
+The analysis was initiated by plotting the data to visualize trends and patterns. It was observed that the series exhibited a clear upward trend without obvious seasonality or cyclical behavior. Decomposition of the series using the classical method confirmed the absence of seasonality, indicating an additive model was most appropriate.
 
 ## Model Selection
 A suite of models was explored to forecast future values:
